@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>FlicBuff | Your Movie Companion</title>
+    <!-- page icon -->
+    <link rel="icon" href="images/imdb.ico">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Comfortaa&family=Concert+One&family=Edu+VIC+WA+NT+Beginner:wght@600&family=Fredoka+One&family=Oleo+Script&family=PT+Sans&family=PT+Sans+Narrow&family=Permanent+Marker&family=Righteous&family=Rubik+Maze&display=swap" rel="stylesheet">
+    <!-- bootstap cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <!-- Metropolis font cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css"> 
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <!-- body -->
+  <body>
+    <nav class="navbar navbar-light bg-grey" style="margin: auto;">
+      <img src="images/logo.png">
+      <div class="container-fluid">
+        <!-- link for the home page -->
+        <a 
+        class="navbar-brand" href="index.html"
+        style="font-family:'Fredoka One', cursive; background-color: #319DA0; color: wheat; border-radius: 5px; padding: 5px;">Home</a>
+        <!-- form to get search input -->
+        <form class="d-flex">
+          <input
+            id="searchBar"
+            type="text"
+            class="form-control me-2"
+            placeholder="Let's Find a Movie for you..."
+            aria-label="Let's Find a Movie for you..."
+            aria-describedby="basic-addon1"
+            name="searchInputTitle"
+            style="font-family:'Fredoka One', cursive;"
+          />
+        </form>
+        <!-- link for favourite movies page -->
+        <a class="btn" style="color: #293462; font-family:'Fredoka One', cursive; background-color: #D36B00;"  href="Movies.html"
+          >Favourites</a
+        >
+      </div>
+    </nav>
+    <!-- display search drop down container -->
+    <div
+      class="card text-dark bg-light mb-3 search"
+      style="max-width: 50rem; margin:auto; flex-direction: row; flex-wrap: wrap;"
+      id="searchRes"
+    ></div>
+    <!-- index.js script file -->
+    <script src="./js/script.js" type="text/javaScript"></script>
+  </body>
+</html>
