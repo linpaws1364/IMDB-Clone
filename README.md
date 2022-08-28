@@ -1,6 +1,6 @@
 # Welcome to Movie Info Project (IMDB clone)
 
-Please use the following link to access the live project - https://linpaws1364.github.io/IMDB-Clone/index.html
+Please use the following link to access the live project - https://linpaws1364.github.io/IMDB-Clone/
 
 # Features
 Home Page
