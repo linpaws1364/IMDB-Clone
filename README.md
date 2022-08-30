@@ -21,3 +21,17 @@ HTML, CSS, Bootstrap and Js
 
 # Approach
 The search bar can be used to search any movie/web series. Once relevant results come up, the details will be shown for the movie/web series along with an info button and Add to Favourite Button. On clicking the info button, a new page will open up showing details of the search result like name, genre, director, plot, etc. On clicking the Add to Favourite, the movie is removed from the main page and added to the favorites page. We can access the favorites list from a favorite button in the nav bar. On the favorites list page, the list of added movies is shown along with a remove button for each entry which can be used to remove the entry. We can go back to the main page by clicking on the Home button.
+
+# Screenshots 
+
+1. Main Page
+
+![FlicBuff _ Your Movie Companion](https://user-images.githubusercontent.com/101203567/187538865-f3b6aded-6717-4612-9497-f9c47b4a5a0f.png)
+
+2. Info Page
+
+![FlicBuff _ Movie Description](https://user-images.githubusercontent.com/101203567/187539078-ae5817ff-d52f-4246-bdf2-d47ec1fcce76.png)
+
+3. Favourites Page
+
+![FlicBuff _ Favourite Movies](https://user-images.githubusercontent.com/101203567/187539175-5173bc69-d4ee-42e5-8bab-4b4736bafb64.png)
